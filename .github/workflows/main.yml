@@ -24,5 +24,4 @@ jobs:
              ls -la
              chmod +x deploy.sh
              bash deploy.sh
-             chmod +x deploy.sh
-             bash deploy.sh
+             
