@@ -18,4 +18,5 @@ jobs:
           key: ${{ secrets.EC2_KEY }}
           script: |
             cd ~/CI-CD-Automation
-            ./deploy.sh
+            chmod +x deploy.sh
+            bash deploy.sh
